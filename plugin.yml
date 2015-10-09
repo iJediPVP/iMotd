@@ -9,5 +9,4 @@ commands:
     description: Reloads the MOTD config.
 permissions:
   imotd.reload:
-    default: false
     description: Give access to /imotd reload.
