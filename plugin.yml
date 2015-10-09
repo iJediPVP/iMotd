@@ -1,0 +1,13 @@
+name: iMotd
+version: 1.0.0
+main: me.i_Jedi.iMotd.Main
+author: i_Jedi
+website: www.ijedi.me
+commands:
+  IMOTD:
+    usage: /imotd reload
+    description: Reloads the MOTD config.
+permissions:
+  imotd.reload:
+    default: false
+    description: Give access to /imotd reload.

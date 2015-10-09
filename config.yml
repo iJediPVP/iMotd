@@ -1,0 +1,20 @@
+# iMotd by i_Jedi
+# Website: www.ijedi.me
+
+#Enables the plugin
+enabled: false
+
+#Set the message of the top motd line (anything over 46 characters will be placed on the second line)
+topLine:
+  message: Default top MOTD.
+
+#Set the message of the bottom motd line.
+bottomLine:
+# This message is used if enableRandom is set to false
+  message: Default bottom MOTD.
+# Enable random messages
+  enableRandom: false
+# Random Message list
+  randomMessages:
+    - Message 1.
+    - Message 2.
